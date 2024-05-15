@@ -1,0 +1,192 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #e69191;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e4e5e6 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #e8d2bf;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.about-text, .about-img {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Box styling for the text */
+.about-text {
+    border: 2px solid #343A40; /* Blue border */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fafafa; /* Light background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Box styling for the image */
+.about-img {
+    border: 2px solid #111111; /* Green border */
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #EDF2F4; /* Light background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center the image inside the box */
+}
+
+.about-img img {
+    width: 100%; /* Ensures image scales with its container */
+    max-width: 100%; /* Image won't scale beyond its original size */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Keeps the rounded corners */
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1 1 300px;
+    margin: 10px;
+    box-shadow: 0 0 10px #b84141;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media(max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text, .about-img {
+        margin: 10px auto; /* Center the boxes on smaller screens */
+        width: 90%; /* Adjust width to fit smaller screens */
+    }
+}
+#home {
+    background-color: #e8d2bf;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.home-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.home-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.home-images {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-images img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.project-box {
+    background-color: #e8d2bf(243, 135, 135, 0.9); /* Light background color with opacity */
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    margin-bottom: 20px;
+}
+.contact-info {
+    background-color: #e8d2bf; /* Light background color with opacity */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.home-content {
+background-color:  #de9967;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.about-details-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color:  #de9967;
+}
+
+.about-details-box {
+    background-color: #f9f9f9;
+   padding: 20px;
+    border-radius: 10px;
+    width: 30%; /* Adjust the width as needed */
+    background-color:  #de9967;
+}
+
+.about-details-box h3 {
+    margin-top: 0;
+    background-color:  #de9967;
+}
